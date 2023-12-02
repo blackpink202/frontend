@@ -134,7 +134,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .myclass{
-    margin-top: 153px;
+    margin-top: 163px;
      position: absolute;
      color: black;
      font-family: 'kanit', sans-serif;
@@ -146,7 +146,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dashboard{
-    margin-top: 153px;
+    margin-top: 163px;
     position: absolute;
     color: black;
     font-family: 'kanit', sans-serif;
@@ -168,7 +168,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .todclass{
-    margin-top: 153px;
+    margin-top: 165px;
     position: absolute;
     color: black;
     font-family: 'kanit', sans-serif;
@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sched{
-    margin-top: 153px;
+    margin-top: 163px;
      position: absolute;
      color: #E8B70E;
      font-family: 'kanit', sans-serif;
@@ -230,7 +230,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .facultydetails{
-    margin-top: 153px;
+    margin-top: 163px;
      position: absolute;
      color: #E8B70E;
      font-family: 'kanit', sans-serif;
@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .createnew{
-    margin-top: 153px;
+    margin-top: 163px;
      position: absolute;
      color: #E8B70E;
      font-family: 'kanit', sans-serif;
@@ -252,7 +252,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .upcomevent{
-    margin-top: 153px;
+    margin-top: 163px;
      position: absolute;
      color: #E8B70E;
      font-family: 'kanit', sans-serif;
@@ -263,8 +263,8 @@ body::-webkit-scrollbar-thumb {
 }
 .sched-button {
   position: absolute;
-  top: 17px;
-  right: -478px; /* Adjust the distance from the right */
+  top: 8px;
+  right: -460px; /* Adjust the distance from the right */
   transform: translateY(-50%);
   width: 60px;
   height: 2px;
@@ -276,8 +276,8 @@ body::-webkit-scrollbar-thumb {
 
 .faculty-button {
     position: absolute;
-    top: 16px;
-    right: -480px; /* Adjust the distance from the right */
+    top: 8px;
+    right: -461px; /* Adjust the distance from the right */
     transform: translateY(-50%);
     width: 60px;
     height: 2px;
@@ -289,8 +289,8 @@ body::-webkit-scrollbar-thumb {
 
 .createnew-button {
     position: absolute;
-    top: 17px;
-    right: -459px; /* Adjust the distance from the right */
+    top: 8px;
+    right: -440px;; /* Adjust the distance from the right */
     transform: translateY(-50%);
     width: 60px;
     height: 2px;
@@ -302,8 +302,8 @@ body::-webkit-scrollbar-thumb {
 
 .upcome-button {
     position: absolute;
-    top: 17px;
-    right: -467px; /* Adjust the distance from the right */
+    top: 8px;
+    right: -449px;/* Adjust the distance from the right */
     transform: translateY(-50%);
     width: 60px;
     height: 2px;
