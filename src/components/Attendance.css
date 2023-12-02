@@ -5,6 +5,7 @@ body {
     scrollbar-width: thin; /* For Firefox */
     scrollbar-color: transparent transparent; /* For Firefox */
     -ms-overflow-style: none; 
+    overflow: auto;
 }
 
 body::-webkit-scrollbar {
@@ -38,10 +39,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 .attendancesheet{
+    margin-top: 30px;
     position: absolute;
     top:70px;
     color: #E8D9D9;
     font-family: 'Tahoma', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    margin-left: 20px;
 
+}
+.prof-picture{
+    margin-top: 25px;
+    margin-left: 900px;
+    width: 500px;
+ 
 }

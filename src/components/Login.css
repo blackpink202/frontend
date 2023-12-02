@@ -1,0 +1,172 @@
+.login-container {
+    padding: 20px; /* Add padding for content inside the container */
+    position: relative; /* Set to relative for absolute positioning of child elements */
+}
+
+.rightrec{
+    position: absolute;
+    width: 450px;
+    height: 800px; /* Adjust the height as needed */
+    background-color: #8A3539D9; /* Rectangle color */
+    top: 0px; /* Adjust the top position based on your layout */
+    left: 990px;
+    border-radius: 0px;
+}
+.login_pic{
+    width: 1000px;
+    height: auto;
+    margin-bottom: 50px;
+    display: block;
+    position: absolute;
+    top: -150px;
+    left: -15px;
+}
+.welcome{
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    margin-left: 1130px;
+    position: absolute;
+    color: #E8B70E;
+}
+.logcon{
+    margin-top: 35px;
+    margin-left: 1105px;
+    position: absolute;
+    color: white;
+}
+.connect{
+    margin-top: 65px;
+    margin-left: 1140px;
+    position: absolute;
+    color: #E8B70E;
+}
+.facebook{
+    width: 20px;
+    margin-left: 1165px;
+    position: absolute;
+    margin-top: 100px;
+}
+.google{
+    width: 70px;
+    margin-left: 1170px;
+    margin-top: 85px;
+    position: absolute;  
+}
+.line {
+    width: 100px; 
+    border: 1px solid #ffffff; 
+    margin: 20px auto; 
+    position: absolute;
+    border-radius: 2px;
+    margin-left: 1060px;
+    margin-top: 135px;
+  }
+
+  .or{
+    margin-top: 122px;
+    margin-left: 1180px;
+    position: absolute;
+    color: #E8B70E;
+}
+.line2 {
+    width: 100px; 
+    border: 1px solid #ffffff; 
+    margin: 20px auto; 
+    position: absolute;
+    border-radius: 2px;
+    margin-left: 1220px;
+    margin-top: 135px;
+}
+.email{
+    margin-top: 175px;
+    margin-left: 1005px;
+    position: absolute;
+    color: #E8B70E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.email-input {
+    width: 380px;
+    margin-top: 200px !important;
+    margin-bottom: 60%;
+    background-color: #E8D9D9; /* Set the background color */
+    margin-left: 1000px !important; 
+    float: right;
+    border-radius:8px ; 
+     /* Change the label color when focused */
+ & label.Mui-focused {
+    color: #E8B70E;
+  }
+
+}
+.password{
+    margin-top: 280px;
+    margin-left: 1005px;
+    position: absolute;
+    color: #E8B70E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.password-input {
+    width: 380px;
+    margin-top: 50px !important;
+    margin-bottom: 60%;
+    background-color: #E8D9D9; /* Set the background color */
+    margin-left: 1000px !important; 
+    float: right;
+    border-radius:8px ; 
+     /* Change the label color when focused */
+ & label.Mui-focused {
+    color: #E8B70E;
+  }
+  & .MuiInputBase-root {
+    padding: 0px; /* Adjust the padding to make it smaller or larger */
+  }
+
+}
+.forgot{
+    margin-top: 370px;
+    margin-left: 1000px;
+    position: absolute;
+    color: #E8D9D9;
+    
+   
+}
+.lgin-button {
+    margin-top: 400px !important;
+    position: relative;
+    width: 280px;
+    height: 40px; 
+    background-color: #E8B70E; 
+    border-radius: 8px;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1060px; 
+    outline: none; 
+    color: #8A3539D9;
+    font-size: bold;
+    font-family: 'inter', sans-serif;;
+    margin-top: 40px;
+    font-weight: bold;
+    
+}
+.doyou{
+    margin-top: 20px;
+    color: #E8D9D9;
+    margin-left: 1070px;
+    position: absolute;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.reg{
+    margin-top: 20px;
+    color: #E8B70E;
+    margin-left: 1220px;
+    position: absolute;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+

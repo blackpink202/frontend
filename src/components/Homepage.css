@@ -63,12 +63,9 @@ body::-webkit-scrollbar-thumb {
     
 }
 .profile-picture{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%; /* Make it circular */
-  margin-right: 10px; /* Adjust the margin as needed */
-  right: 50px
+    margin-left: 900px;
+    width: 500px;
+ 
 }
 .welcome-t{
     position: absolute;
@@ -119,7 +116,7 @@ body::-webkit-scrollbar-thumb {
 .rectangle4 {
     position: absolute;
     width: 617px;
-    height: 350px; /* Adjust the height as needed */
+    height: 330px; /* Adjust the height as needed */
     background-color: #BC9193; /* Rectangle color */
     top: calc(55px + 70px + 80px); /* Adjust the top position based on your layout */
     left: 100px;
@@ -337,11 +334,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 10px; /* Adjust the margin-top as needed */
     cursor: pointer; /* Add cursor style for better user interaction */
     display: flex;
+    border-color: #8A3539;
     align-items: center;
     justify-content: center;
     left: 17px;
 }
-  
   .attendance-button h3{
     color: #fff; /* Text color */
     margin: 0; /* Remove default margin */
@@ -373,6 +370,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
     left: 17px;
+    border-color: #8A3539;
 }
   
 .analyze-button h3{

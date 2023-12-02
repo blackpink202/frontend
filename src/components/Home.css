@@ -1,0 +1,191 @@
+/* Homepage.css */
+
+/* Set background color for the entire page */
+.body {
+    background-color: #E8D9D9;
+    overflow-y: auto;
+    overflow-y: scroll; /* Always show a scrollbar */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    -ms-overflow-style: none; 
+}
+body::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the color of the thumb (the moving part of the scrollbar) */
+}
+
+.logo{
+    width: 110px;
+    height: auto;
+    margin-bottom: 10px;
+    top: -15px;
+    left: -15px;   
+}
+.home-button{
+    position: relative;
+    width: 120px;
+    height: 40px; 
+    background-color: #8A3539; 
+    border-radius: 8px;
+    margin-top: 10px; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 600px; 
+    outline: none; 
+    color: #E8B70E;
+    font-size: bold;
+    font-family: 'tahoma', sans-serif;;
+
+}
+
+.features-button{
+    position: relative;
+    width: 120px;
+    height: 40px; 
+    background-color: #8A3539; 
+    border-radius: 8px;
+    margin-top: -40px; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 750px; 
+    outline: none; 
+    color: #E8B70E;
+    font-size: bold;
+    font-family: 'tahoma', sans-serif;;
+
+}
+
+.about-button{
+    position: relative;
+    width: 120px;
+    height: 40px; 
+    background-color: #8A3539; 
+    border-radius: 8px;
+    margin-top: -40px; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 900px; 
+    outline: none; 
+    color: #E8B70E;
+    font-size: bold;
+    font-family: 'tahoma', sans-serif;;
+
+}
+
+.login-button{
+    position: relative;
+    width: 120px;
+    height: 40px; 
+    background-color: #8A3539; 
+    border-radius: 8px;
+    margin-top: -40px; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1050px; 
+    outline: none; 
+    color: #E8B70E;
+    font-size: bold;
+    font-family: 'tahoma', sans-serif;
+  
+   
+
+}
+.signup-button{
+    position: relative;
+    width: 120px;
+    height: 40px; 
+    background-color: #8A3539; 
+    border-radius: 8px;
+    margin-top: -40px; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1200px; 
+    outline: none; 
+    color: #E8B70E;
+    font-size: bold;
+    font-family: 'tahoma', sans-serif;;
+
+}
+.cit{
+    text-align: center;
+    margin-left: -450px;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif ;
+    margin-top: 50px;
+    color:#E8B70E
+}
+.checker{
+    margin-left: 495px;
+    margin-top: -73px;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif ;
+    color: #8A3539;
+}
+.sub{
+    margin-left:710px;
+    margin-top: -73px;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif ;
+
+}
+.plat{
+    text-align: center;
+    margin-top: -25px;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif ;
+}
+.mean{
+    text-align: center;
+    margin-top: -17px;
+    font-size: 17px;
+    font-family: 'roboto', sans-serif ;
+
+}
+.allow{
+    text-align: center;
+    margin-top: -17px;
+    font-size: 17px;
+    font-family: 'roboto', sans-serif ;
+
+}
+.start-button{
+    position: relative;
+    width: 180px;
+    height: 40px; 
+    background-color: #8A3539; 
+    border-radius: 8px;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 620px; 
+    outline: none; 
+    color: #E8B70E;
+    font-size: bold;
+    font-family: 'inter', sans-serif;;
+    margin-top: 40px;
+
+}
+.teach{
+    width: 900px;
+    display: block;
+    height: auto;
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: -200px;
+    margin-left: 250px;
+    margin-right: 800px;
+}

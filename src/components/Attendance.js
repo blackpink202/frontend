@@ -1,39 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import './Attendance.css';
-import axios from 'axios';
+import logo from '../assets/logo.png'; 
+import profile1 from '../assets/profile1.jpg';
+import './Attendance.css'; 
+/*import axios from 'axios';*/
 
 function Attendance() {
-  const [students, setStudents] = useState([]);
-
-  useEffect(() => {
-    // Fetch students when the component mounts
-    fetchStudents();
-  }, []);
-
-  const fetchStudents = async () => {
-    try {
-      console.log('Fetching students...');
-      const response = await axios.get('http://localhost:8080/student/getAllStudents');
-      console.log('Students response:', response.data);
-      setStudents(response.data);
-    } catch (error) {
-      console.error('Error fetching students:', error);
-    }
-  };
-
   return (
-    <div className="homepage-container">
-      {/* ... (your existing code) */}
-
-      {/* Display the list of students */}
-      <div className='students-list'>
-        <h2>Students:</h2>
-        <ul>
-          {students.map(student => (
-            <li key={student.sid}>{student.fname} {student.lname}</li>
-          ))}
-        </ul>
-      </div>
+    <div className="attendance-container">
+      <img src={logo} alt="Logo" className="logo" />
+      <img src={profile1} alt="Profile" className="prof-picture" />
+      <div className='horizontal'></div>
+      <div className='horizontal1'></div>
+      <h1 className='attendancesheet'>Attendance Sheet</h1>
+    
     </div>
   );
 }
